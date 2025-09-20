@@ -1,0 +1,30 @@
+1. Prompt input
+2. Submit prompt
+3. Hit api and get response
+4. Show response
+
+1. History of prompts
+
+
+UI components
+1. Input box
+2. Submit button
+3. Response box —> text field —> with a copy text button
+4. Sidebar
+
+
+1. Src
+    1. Pages
+        1. /chat —> import components
+    2. Components
+        1. TextInput —> query and setQuery
+        2. Button —> dynamic functionality (redirect to some other page, and also to hit an api) —> enum to select perform a specific type of functionality
+        3. TextField —> this will show any kind of text/response —> should be able to render html text (dangeeourouslyHml).
+        4. Sidebar —> with open and close functionality — should be able to render the given items in an infinite scrollable way.
+
+    1. Utils
+        1. Constants —>
+        2. Helpers —> 
+        3. Api calling functionality (fetch for both post and get)
+            1. POST 
+            2. GET
